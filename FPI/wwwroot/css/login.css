@@ -1,0 +1,12 @@
+﻿namespace FPI.wwwroot.css
+
+ .divider:after, .divider:before{
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+ }
+.container {
+    display: flex;
+    justify-content: space-between;
+} 
